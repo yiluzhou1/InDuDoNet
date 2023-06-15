@@ -11,13 +11,7 @@ For the task of metal artifact reduction (MAR), although deep learning (DL)-base
 
 ## Dependicies
 
-Refer to **environment.yml**. The following project links are needed for installing ODL and astra:
-
-ODL: https://github.com/odlgroup/odl
-Astra: https://github.com/astra-toolbox/astra-toolbox
-
-
-This repository is tested under the following system settings:
+Refer to **environment.yml**. This repository is tested under the following system settings:
 
 Python 3.10
 
