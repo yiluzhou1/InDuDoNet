@@ -1,4 +1,4 @@
-name: test1
+name: InDuDoNet
 channels:
   - astra-toolbox/label/dev
   - defaults
@@ -82,4 +82,4 @@ dependencies:
       - torchvision==0.15.2+cu118
       - tqdm==4.65.0
       - typing-extensions==4.4.0
-prefix: C:\Users\yzhou\AppData\Local\miniconda3\envs\test1
+prefix: C:\Users\yzhou\AppData\Local\miniconda3\envs\InDuDoNet

@@ -11,7 +11,7 @@ For the task of metal artifact reduction (MAR), although deep learning (DL)-base
 
 ## Dependicies
 
-Refer to **requirements.txt**. The following project links are needed for installing ODL and astra:
+Refer to **environment.yml**. The following project links are needed for installing ODL and astra:
 
 ODL: https://github.com/odlgroup/odl
 Astra: https://github.com/astra-toolbox/astra-toolbox
@@ -19,16 +19,25 @@ Astra: https://github.com/astra-toolbox/astra-toolbox
 
 This repository is tested under the following system settings:
 
-Python 3.6
+Python 3.10
 
-Pytorch 1.4.0
+Pytorch 2.0.1
 
-CUDA 10.1
+CUDA 11.8
 
-GPU NVIDIA Tesla V100-SMX2
+GPU NVIDIA A1000
 
 **For running the code,  please first test whether ODL and Astra are both installed correctly. This is quite important.**
 
+If using Anaconda, you may try the following steps:
+conda create --name InDuDoNet python=3.10 
+conda activate InDuDoNet 
+conda install -c astra-toolbox/label/dev astra-toolbox 
+pip install https://github.com/yiluzhou1/odl/archive/refs/heads/master.zip 
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 
+pip install matplotlib h5py scikit-learn scikit-image nibabel pyyaml tqdm 
+
+Note: To avoid "libiomp5md.dll" error, you may need to search and rename "libiomp5md.dll" in your env folder
 
 
 
